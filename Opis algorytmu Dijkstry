@@ -1,4 +1,3 @@
-## Algorytm Dijkstry
 Algorytm Dijkstry znajduje najmniejsze odległości od wierzchołka startowego do wszystkich pozostałych wierzchołków w grafie, wyznacza on też poszczególne ścieżki.
 Może być używany do wyznaczania (najkrótszej) ścieżki pomiędzy dwoma wierzchołkami, poprzez przerwanie wykonywania algorytmu w momencie dojścia do wierzchołka 
 docelowego. 
