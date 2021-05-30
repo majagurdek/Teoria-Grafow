@@ -1,0 +1,10 @@
+Algorytm Dijkstry znajduje najmniejsze odległości od wierzchołka startowego do wszystkich pozostałych wierzchołków w grafie, wyznacza on też poszczególne ścieżki. Może być używany do wyznaczania (najkrótszej) ścieżki pomiędzy dwoma wierzchołkami, poprzez przerwanie wykonywania algorytmu w momencie dojścia do wierzchołka docelowego. 
+By algorytm mógł być zastosowany, graf może być skierowany lub nieskierowany - musi mieć jednak wszystkie wagi krawędzi o wartościach nieujemnych. 
+
+Algorytm Dijkstry może być stosowany do obliczania najkrótszej drogi pomiędzy miejscami. Mapa przekształcana jest w graf, którego węzły odpowiadają punktom takim jak skrzyżowania czy miejscowości, krawędzie drogom łączącym te punkty, a wagi krawędzi odległościom. 
+Możemy więc np. wykorzystać Dijkstrę do znalezienia najkrótszej trasy z miejscowości, w której jesteśmy do miejscowości docelowej, dzięki czemu zaoszczędzimy czas czy benzynę. 
+Algorytm mógłby zostać wykorzystany do stworzenia systemu dla pogotowia ratunkowego czy straży pożarnej, który znajdowałby najbliższy miejscu wypadku szpital/jednostkę ratowniczo-gaśniczą oraz najszybszą drogę do niego. 
+Może być też używany w firmach logistycznych do znajdowania najszybszych połączeń między magazynami a punktami docelowymi.
+Obecnie jest on często stosowany do wyznaczania optymalnych tras, a przy bardziej złożonych problemach (gdzie chcemy uwzględnić wiele parametrów) wykorzystuje się jego ulepszenia, takie jak np. krawędzie z tablicami wag. Taka tablica może zawierać wartości różnych parametrów, przykładowo : długość drogi, czas przejazdu i opłatę za przejazd. Inną modyfikacją jest dodanie do parametrów ich wag - im wyższą wagę ma dany parametr, tym bardziej wpływa on na wybór drogi.
+Algorytm Dijkstry jest wykorzystywany również w sieciach komputerowych przy protokołach trasowania takich jak OSPF (Open Shortest Path First) czy IS-IS (Intermediate System to Intermediate System), gdzie znajduje najlepszą ścieżkę do transportu pakietów danych.
+Algorytm może znaleźć zastosowanie w mediach społecznościowych do sprawdzania połączeń między użytkownikami, dzięki czemu tworzone będą listy proponowanych znajomych. 
