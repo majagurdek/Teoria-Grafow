@@ -1,3 +1,5 @@
+// Niestety nie udało mi się dokończyć kodu. Są to raczej jakieś próby. Program odpowiednio wczytuje dane z listy sąsiedztwa. Reszta trochę gorzej :/
+
 #include <iostream>
 #include<fstream>
 using namespace std;
@@ -49,7 +51,7 @@ int main()
     for (int i = 1; i <= il; i++)
     {
         plik >> x >> y >> z;
-        //cout<<x<<" "<<y<<"z"<<endl;
+        //cout<<x<<" "<<y<<" "<<z<<endl;
     }
     //cout<<start;
     //cout<<endl<<il;
