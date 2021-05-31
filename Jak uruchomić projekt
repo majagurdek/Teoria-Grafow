@@ -1,1 +1,6 @@
-Początkowo należy pobrać kod z repozytorium i otworzyć go w wybranym przez siebie programie. 
+Aby uruchomić projekt należy pobrać folder "dijkstra" z repozytorium i otworzyć go w wybranym przez siebie programie. W folderze znajduje się plik tekstowy 
+o nazwie "example.txt", który zawiera przykładową listę sąsiedztwa. Program wczytuje graf właśnie z tego pliku.
+Listę sąsiedztwa można dowolnie modyfikować. W pierwszym wierszu należy wpisać numer wierzchołka startowego (czyli wierzchołka, od którego odległość do innych 
+wierzchołków zostanie obliczona). W drugim wierszu wpisujemy ilość krawędzi grafu. Każdy kolejny wiersz odpowiada jednej krawędzi : jej wierzchołek początkowy, 
+wierzchołek końcowy i waga. 
+Po uruchomieniu kodu program zwróci numer każdego wierzchołka i najmniejszą możliwą odległość od wierzchołka startowego do niego.
